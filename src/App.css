@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+
+/*---------------- CSS promociones y categorias*/
+.btn-promos {
+  position: absolute;
+  width: 171px;
+  height: 23px;
+  left: 36px;
+  top: 135px;
+  border: 2px solid #9E5B8E;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.promo-uno {
+  position: absolute;
+  width: 944px;
+  height: 150px;
+  left: 36px;
+  top: 175px;
+  border: 2px solid #9E5B8E;
+  background: url(./assets/promo11.jpg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.promo-dos {
+  position: absolute;
+  width: 944px;
+  height: 120px;
+  left: 36px;
+  top: 353px;
+  /* border: 2px solid #200d1c; */
+  background: rgba(217, 108, 108, 0.74);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-categorias {
+  position: absolute;
+  width: 171px;
+  height: 23px;
+  left: 809px;
+  top: 494px;
+  border: 2px solid #9E5B8E;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+p {
+  font-family: 'Norican', cursive;
+  font-size: 1.5rem;
   }
+
+.cat-uno { 
+  position: absolute;
+  width: 190px;
+  height: 138px;
+  left: 42px;
+  top: 547px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url(./assets/ropa.jpg);
+  background-size: 111%;
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cat-dos {
+  position: absolute;
+  width: 190px;
+  height: 138px;
+  left: 313px;
+  top: 547px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url(./assets/zap.jpg);
+  background-size: 111%;
+  text-align: right;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cat-tres {
+  position: absolute;
+  width: 190px;
+  height: 138px;
+  left: 588px;
+  top: 547px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px; 
+  background: url(./assets/bolsas.jpg);
+  background-size: 111%;
+  text-align: right;
 }
